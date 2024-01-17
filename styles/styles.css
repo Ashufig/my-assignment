@@ -299,7 +299,106 @@ font-family: Mulish;
 font-style: normal;
 font-weight: 400;
 }
+.content{
 
+    background-image: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    max-width:  1000px;
+    height: 500px; 
+    margin-top: 50px;
+    padding: 0 100px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.content2{
+
+    background-image: url('../Images/Group\ 40.png');
+    background-repeat: no-repeat;
+    max-width:  1000px;
+    height: 500px; 
+    margin-top: 50px;
+    padding: 0 100px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    
+}
+.box{
+
+position: relative;
+max-width: 500px;
+padding: 50px;
+background: rgba(255, 255, 255, 0.80);
+
+backdrop-filter: blur(2.5px);
+
+}
+.box2{
+
+    position: relative;
+    max-width: 500px;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.80);
+    
+    backdrop-filter: blur(2.5px);
+    
+    }
+#consectetur{
+    color: #5A5A5D;
+}
+#price{
+    color: #FF5400;
+font-size: 20px;
+font-weight: 800;
+}
+#book{
+    width: 150px;
+    height: 52px;
+    width: 150px;
+height: 52px;
+color: #FFF;
+border-radius: 8px;
+background: #FF5400;
+text-align: center;
+    
+}
+.difi{
+margin-left: 700px;
+margin-top: 10px;
+    justify-content: center;
+    justify-content: space-around;
+}
+.frm{
+     width: 250px;
+    height: 52px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+
+
+}
+.subscribe{
+
+    width: 250px;
+    height: 52px;
+    border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+
+text-align: center;
+
+}
+.ontim{
+border: 2px solid #FF5400 ;
+border-radius: 5px;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+    width: 234px;
+height: 220px;
+margin: 80px;
+}
  @media screen and (max-width: 576px){
 .section1st{
     display: grid;
@@ -406,5 +505,41 @@ margin: 0;
 padding: 0;
 margin-top: 10px;
 }
+.content{
+
+
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    image-rendering: -webkit-optimize-contrast;
+
+}
+.content2{
+
+
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    image-rendering: -webkit-optimize-contrast;
+
+}
+.box2{
+
+    width: fit-content;
+    height: fit-content;
+    backdrop-filter: invert(0%);
+    backdrop-filter: opacity(20%);
+   
+
+    
+    }
+    .difi{
+        margin-left: 10px;
+    }
+
 
  }
